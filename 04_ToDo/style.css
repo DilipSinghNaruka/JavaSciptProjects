@@ -1,0 +1,98 @@
+/* body{
+    background-color: rgb(242, 242, 242);
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 800px;
+  width: 100%;
+  
+}
+
+.takeNotes{
+  width: 40%;
+}
+
+.takeNotes form{
+  display: flex;
+  flex-direction: column;
+}
+
+.takeNotes form input[type="text"],
+.takeNotes form textarea,
+.takeNotes form button{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.inshownotes1{
+  width: 58%;
+  border: 1px solid #e45050;
+  background-color: #ccc;
+  padding: 20px;
+  margin: 13px;
+}
+.inshownotes{
+  border: 2px solid ;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.titleNotes{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.showNotes .span{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.inshownotes button{
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  
+}
+
+.inshownotes button:hover{
+  background-color: #fff;
+  color: #f44336;
+  border: 1px solid #f44336;
+} */
+
+.container{
+background-color: rgba(193, 193, 186, 0.175);
+max-width: 50vw;
+max-height: auto;
+margin: auto;
+}
+.container h2{
+  /* margin: 3rem; */
+  text-align: center;
+  height: 4rem;
+  width: 25vw;
+  margin: auto;
+  padding-top: 2rem;
+  background-color: rgb(207, 203, 199);
+  box-shadow: 1px 1px 0px 4px rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(0, 23, 15);
+}
+
+.container form{
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 8rem ;
+  width: 30vw;
+}
+.container form .input{
+  height: 3rem;
+}

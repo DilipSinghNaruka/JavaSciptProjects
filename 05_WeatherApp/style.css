@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.weather1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather2 p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.weather2 span {
+  font-size: 16px;
+  color: gray;
+}
+
+.weather3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weather3 img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.weather3 span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputbox {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
